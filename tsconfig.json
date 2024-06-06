@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"],
+    },
+    "sourceMap": true,
+    "strict": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    // "module": "commonjs",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"]
+  // "exclude": ["node_modules", "dist", "config"],
+}
